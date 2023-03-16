@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{0ea97e67-984d-499b-b652-838575046779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{642b955a-d0e9-4021-bd8a-778cf224f006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="background_mask.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="median_filter.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
